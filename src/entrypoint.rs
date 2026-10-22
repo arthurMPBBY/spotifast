@@ -1065,7 +1065,12 @@ mod native_window_tests {
         }
         #[cfg(not(target_os = "linux"))]
         {
-            assert_eq!(main.viewport.app_id.as_deref(), Some("spotifast"));
+            let expected_app_id = if cfg!(feature = "neon-preview") {
+                "spotifast-neon-preview"
+            } else {
+                "spotifast"
+            };
+            assert_eq!(main.viewport.app_id.as_deref(), Some(expected_app_id));
             assert_eq!(mini.viewport.app_id, main.viewport.app_id);
             assert_eq!(main.persistence_path, None);
         }

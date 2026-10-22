@@ -1331,6 +1331,9 @@ impl App {
         ctx.add_image_loader(std::sync::Arc::new(self.backend.art().scaler()));
         // The covers the last window's egui held are gone with it.
         self.backend.art().forget_textures();
+        #[cfg(feature = "neon-preview")]
+        ctx.set_theme(egui::ThemePreference::Dark);
+        #[cfg(not(feature = "neon-preview"))]
         ctx.set_theme(self.theme_preference());
         self.applied_dark = None;
         self.winamp.forget_textures();
@@ -20792,9 +20795,26 @@ mod tests {
     }
 
     #[test]
+    #[cfg(feature = "neon-preview")]
+    fn neon_preview_attaches_with_dark_theme_even_when_saved_light() {
+        let mut app = test_app("neon-preview-attach-theme");
+        app.settings.theme = ThemeChoice::Light;
+        let ctx = egui::Context::default();
+
+        app.attach(&ctx);
+
+        assert_eq!(ctx.theme(), egui::Theme::Dark);
+        app.backend.shutdown();
+    }
+
+    #[test]
     fn neon_interface_follows_the_selected_theme_and_active_system_slot() {
         let mut app = test_app("neon-theme-selection");
         app.backend.shutdown();
+        if cfg!(feature = "neon-preview") {
+            assert!(app.neon_theme_active());
+            return;
+        }
         assert!(!app.neon_theme_active());
 
         app.settings.custom_theme = Some("neon.json".into());
