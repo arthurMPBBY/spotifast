@@ -1,0 +1,218 @@
+[
+  {
+    "file": "before-full-dark-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "db4ee9ec36f61c1f143765fd30dcfeb1c0f78ede576a0ca639bb677c42f32c8e"
+  },
+  {
+    "file": "after-full-dark-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "3b0fafc2320385e7b2c99193a89587ca96a75745ff6557ab0513461b84a985cb"
+  },
+  {
+    "file": "before-full-dark-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "10fb2b2608d59ae8cd543aba70501dfa342c0db940f624cc6c8a121a77cea1b5"
+  },
+  {
+    "file": "after-full-dark-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "000ce6629dace731eab6189e7bff3b4204287e51e861e63db868ffbd6ea263e7"
+  },
+  {
+    "file": "before-full-light-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "3c4fa6d1a7abdd1b74ffde3cd6fbb5c2b639739b5d7db7208e48cd97e9ee7e3d"
+  },
+  {
+    "file": "after-full-light-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "02b587dfe13792a22b9bddb9e6e806b5911f24fc9cfd7f4b0eb4bec46aca4927"
+  },
+  {
+    "file": "before-full-light-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "e30de29de994417f0834c39549dfe6bddf8bcec4d1b67e4c6b6b1a80dfab3de7"
+  },
+  {
+    "file": "after-full-light-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view",
+    "capture_delay_ms": 6000,
+    "sha256": "2f4be785e1b54dbda0889d5b4f68167e3d32f82c7327fee3fb95a5caf3f2f0b7"
+  },
+  {
+    "file": "before-side-dark-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "cb5c39b01f89d3e86de11570bf1e6162cb22df81c94ddc615944566460da822e"
+  },
+  {
+    "file": "after-side-dark-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "6436d0a57c28791c8103f4e7b8d7c1276b05b8d6a07586f122f9d875281a317d"
+  },
+  {
+    "file": "before-side-dark-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "0b48e341b8f2c86eba446fc9ee66aa9af00925e6df13b5617c93b299050b2adf"
+  },
+  {
+    "file": "after-side-dark-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "81ed7af185fb70f11c855652f6fc0147be8e2170258035a2851a4e14ebe5834d"
+  },
+  {
+    "file": "before-side-light-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "6b5a3f155357bdfa4a749eb4e84c33b054183cd010827f725af688c8441c4733"
+  },
+  {
+    "file": "after-side-light-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "26bb3f63d015ebb689c38146997af8ca25d568ca44643a6ce56b8e128c46c702"
+  },
+  {
+    "file": "before-side-light-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "f5d43137c0a8217a12e90bf5b17bcc5c7fb252e77c429b25a96876bbcc8e1096"
+  },
+  {
+    "file": "after-side-light-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics",
+    "capture_delay_ms": 6000,
+    "sha256": "ad803ff1c2c35117bf6fc43c10f93261f3a797f3ca18dd9af5da2c162c75fc7d"
+  },
+  {
+    "file": "before-manual-side-light-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics-follow",
+    "capture_delay_ms": 6000,
+    "sha256": "6809ab5dfcd05697163e3cb731b05f034a25006627b0bc3903296d2c49e5f3aa"
+  },
+  {
+    "file": "after-manual-side-light-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-light,lyrics-follow",
+    "capture_delay_ms": 6000,
+    "sha256": "cf03e565028312b98c444a87cf855a42d90468043bb0bd3cb8eeb39ed711a52e"
+  },
+  {
+    "file": "before-loading-side-dark-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics-loading",
+    "capture_delay_ms": 6000,
+    "sha256": "017f17ec0a17a9f3b67044bb7270d6534409b5d1163ae32bceda16a7c6499fb7"
+  },
+  {
+    "file": "after-loading-side-dark-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-dark,lyrics-loading",
+    "capture_delay_ms": 6000,
+    "sha256": "c3390b4fbeca5de443cd6aec202bc871d3bea81e21c80aa5e960ac498ea6811a"
+  },
+  {
+    "file": "before-error-full-light-760.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view,lyrics-error",
+    "capture_delay_ms": 6000,
+    "sha256": "79f28450df274092775c273ab08e8296dcae36e778de8508da0923b1ec46d61e"
+  },
+  {
+    "file": "after-error-full-light-760.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 760,
+    "height": 800,
+    "flags": "system-light,lyrics-fullscreen-view,lyrics-error",
+    "capture_delay_ms": 6000,
+    "sha256": "103b060deb07adf182d6f193655f684ffdb44ef740f5a32f38081cf9dfc2b157"
+  },
+  {
+    "file": "before-empty-full-dark-1240.png",
+    "commit": "19b74431279ce891ce2c53f5c835261f630a7d89",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view,lyrics-empty",
+    "capture_delay_ms": 6000,
+    "sha256": "6a235692dd9747b05b5fca8b59b14b37b797f2ed04fbdb3a8ef327e70ed2ca58"
+  },
+  {
+    "file": "after-empty-full-dark-1240.png",
+    "commit": "c7b81b8f5ba3fe18b894c8f8c35e80511e58a35e",
+    "width": 1240,
+    "height": 800,
+    "flags": "system-dark,lyrics-fullscreen-view,lyrics-empty",
+    "capture_delay_ms": 6000,
+    "sha256": "9e4e678f722fb185039fa9e19647d5e22cff0a5f8b5ac35898b8acf32c5be284"
+  }
+]
