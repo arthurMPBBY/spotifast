@@ -534,12 +534,7 @@ fn contents(app: &mut App, ui: &mut egui::Ui) {
     crate::autoscroll::lyrics(ui, scroll.id);
     // Scrolling by hand means the reader wants to look elsewhere; the
     // Follow button in the header picks the song back up.
-    if ui.rect_contains_pointer(scroll.inner_rect)
-        && ui.input(|input| {
-            input.smooth_scroll_delta.y != 0.0
-                || (input.pointer.primary_down() && input.pointer.delta().y != 0.0)
-        })
-    {
+    if manual_scroll && app.lyrics_following {
         app.actions.push(Action::PauseLyricsFollow);
     }
     app.lyrics_line_shown = Some(active);
